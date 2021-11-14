@@ -7,5 +7,5 @@ Our goal is to measure how well language models can exploit wider linguistic con
 ## Project Proposal
 The project proposal of this project can be found [here](https://github.com/daisy91530/CourseProject/tree/main/Docs).
 
-## Progress Proposal
+## Progress Report
 The progress report of this project can be found [here](https://github.com/daisy91530/CourseProject/blob/main/Docs/410%20Project%20Progress%20Report%20-%20Children%20Hooray.pdf).
