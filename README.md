@@ -1,3 +1,5 @@
-# CourseProject
+# Applying BERT on Facebook Children's Book Test
 
-Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
+## Abstract
+Our task is to apply BERT on Facebook Children’s Book Test Dataset. In the dataset, each question is constructed by taking 20 consecutive sentences from the book text and leaving the 21st as the query statement. A word from the query is selected and masked, and the model is tasked with selecting which word from the text (of the chosen type) should be used to fill this placeholder in the query.
+Our goal is to measure how well language models can exploit wider linguistic context and ultimately create a model that is capable of answering a query based on a short story.
