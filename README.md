@@ -9,3 +9,9 @@ The project proposal of this project can be found [here](https://github.com/dais
 
 ## Progress Report
 The progress report of this project can be found [here](https://github.com/daisy91530/CourseProject/blob/main/Docs/410%20Project%20Progress%20Report%20-%20Children%20Hooray.pdf).
+
+## Final Presentation
+The final presentation pdf of this project can be found [here]().
+
+## Final Documentation
+The final documentation of this project can be found [here]().
