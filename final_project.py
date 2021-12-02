@@ -2,6 +2,7 @@ import torch
 import operator
 from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
 import nltk
+nltk.download('wordnet')
 from nltk import *
 from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
