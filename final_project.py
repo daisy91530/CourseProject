@@ -59,46 +59,26 @@ for problem in train_question:
     train_question_string.append(final_string[1:])
 
 def BERT(textA, textB):
-    # Load pre-trained model tokenizer (vocabulary)
     tokenizer = BertTokenizer.from_pretrained('bert-large-uncased')
 
-    # Tokenized input
     tokenized_textA = tokenizer.tokenize(textA)
     tokenized_textB = tokenizer.tokenize(textB)
 
-    #print(tokenized_textA, tokenized_textB)
-
-    # Mask a token that we will try to predict back with `BertForMaskedLM`
     masked_index = len(tokenized_textA) + tokenized_textB.index('$')
     tokenized_text = tokenized_textA + tokenized_textB
     tokenized_text[masked_index] = '[MASK]'
-    #print(tokenized_textB)
 
-    # Convert token to vocabulary indices
     indexed_tokens = tokenizer.convert_tokens_to_ids(tokenized_text)
-    # Define sentence A and B indices associated to 1st and 2nd sentences (see paper)
     segments_ids = [0] * len(tokenized_textA) + [1] * len(tokenized_textB)
 
-    # Convert inputs to PyTorch tensors
     tokens_tensor = torch.tensor([indexed_tokens])
     segments_tensors = torch.tensor([segments_ids])
-    
-    # Load pre-trained model (weights)
-    model = BertModel.from_pretrained('bert-large-uncased')
-    model.eval()
-
-    # Predict hidden states features for each layer
-    encoded_layers, _ = model(tokens_tensor, segments_tensors)
-    # We have a hidden states for each of the 12 layers in model bert-base-uncased
-    # Load pre-trained model (weights)
     
     model = BertForMaskedLM.from_pretrained('bert-large-uncased')
     model.eval()
 
-    # Predict all tokens
     predictions = model(tokens_tensor, segments_tensors)
 
-    # confirm we were able to predict 
     predicted_index = torch.argmax(predictions[0, masked_index]).item()
     predicted_token = tokenizer.convert_ids_to_tokens([predicted_index])[0]
     print(predicted_token)
