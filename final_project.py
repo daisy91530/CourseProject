@@ -130,7 +130,7 @@ def wordtovec(pred, choise):
     return max(score.items(), key=operator.itemgetter(1))[0]
 
 def main():
-    for idx in range(10):
+    for idx in range(9):
         i = idx
         pred = BERT(train_statement_string[i], train_question_string[i])
         my_answer = wordtovec(pred, train_choice[i])
