@@ -14,4 +14,4 @@ The progress report of this project can be found [here](https://github.com/daisy
 The final presentation pdf of this project can be found [here](https://github.com/daisy91530/CourseProject/blob/main/Docs/CS410%20Final%20Presentation.pdf).
 
 ## Final Documentation
-The final documentation of this project can be found [here]().
+The final documentation of this project can be found [here](https://github.com/daisy91530/CourseProject/blob/main/Docs/CS410%20Final%20Documentation.pdf).
