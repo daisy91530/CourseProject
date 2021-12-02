@@ -174,28 +174,6 @@
 20 As per the will, the eldest son got half the camels, which now counted to 18 / 2 = 9 camels!
 21 The eldest one got 9 camels as his XXXXX.	share		share|son|camel|man|place|village|answer|solution|will|desert
 
-1 Mary was a young girl.
-2 She used to get annoyed with everything.
-3 She had a negative attitude towards life.
-4 Once, when she felt that life was unbearable, she asked her father what to do.
-5 She told him that if she was able to manage and solve one problem, another one followed quickly.
-6 Her father consoled her and took her to the kitchen.
-7 He asked Mary to take a potato, an egg and two spoons of tea leaves.
-8 Mary was surprised, and asked her father, “Do you want me to cook?”
-9 “No,” her father said.
-10 He then took three vessels and poured one cup of water in each vessel.
-11 The vessels were placed on the stove.
-12 Once the water started to boil, he dropped the potato in a vessel, egg in the second one and the tea leaves in the third one.
-13 “Why are you doing all these things?” Mary asked, really annoyed with her father.
-14 “Just wait fifteen minutes,” said her father.
-15 The impatient daughter managed to wait for around 15 minutes.
-16 Father removed the potato from the pot and placed in a plate.
-17 He did the same with the eggs. He filtered the tea decoction using a cup.
-18 Now, he placed the two plates, one with the potato and the other with the egg, and the cup of tea in front of Mary.
-19 He asked Mary, “What do you see?”
-20 “Potato, egg and a cup of tea,” said Mary.
-21 “No, you are XXXXX,” said her father.	wrong		correct|impatient|wrong|beautiful|ugly|surprised|young|annoyed|unbearable|removed
-
 1 Far out in the sea where the water is very deep, the Sea King ruled the undersea world.
 2 In the deepest spot of the sea was his castle.
 3 The walls were made of blue coral.
@@ -217,3 +195,25 @@
 19 She was the first to be allowed to rise up to the surface.
 20 When she came back, she had many wonders to tell her sisters about!
 21 She told about resting on soft white XXXXX.	sand		sand|voice|sea|sister|town|ship|story|treasure|coral|fish
+
+1 Mary was a young girl.
+2 She used to get annoyed with everything.
+3 She had a negative attitude towards life.
+4 Once, when she felt that life was unbearable, she asked her father what to do.
+5 She told him that if she was able to manage and solve one problem, another one followed quickly.
+6 Her father consoled her and took her to the kitchen.
+7 He asked Mary to take a potato, an egg and two spoons of tea leaves.
+8 Mary was surprised, and asked her father, “Do you want me to cook?”
+9 “No,” her father said.
+10 He then took three vessels and poured one cup of water in each vessel.
+11 The vessels were placed on the stove.
+12 Once the water started to boil, he dropped the potato in a vessel, egg in the second one and the tea leaves in the third one.
+13 “Why are you doing all these things?” Mary asked, really annoyed with her father.
+14 “Just wait fifteen minutes,” said her father.
+15 The impatient daughter managed to wait for around 15 minutes.
+16 Father removed the potato from the pot and placed in a plate.
+17 He did the same with the eggs. He filtered the tea decoction using a cup.
+18 Now, he placed the two plates, one with the potato and the other with the egg, and the cup of tea in front of Mary.
+19 He asked Mary, “What do you see?”
+20 “Potato, egg and a cup of tea,” said Mary.
+21 “No, you are XXXXX,” said her father.	wrong		correct|impatient|wrong|beautiful|ugly|surprised|young|annoyed|unbearable|removed

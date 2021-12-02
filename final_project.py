@@ -21,7 +21,6 @@ train_answer = list()
 for i, line in enumerate(lines):
     if len(line) == 0:
         train_set.append(lines[i - 21 : i])
-train_set = train_set[0:-1]
 
 for problem in train_set:
     last_line = problem[20].split('\t')
@@ -66,7 +65,7 @@ def BERT(textA, textB):
     tokenized_textA = tokenizer.tokenize(textA)
     tokenized_textB = tokenizer.tokenize(textB)
 
-    print(tokenized_textA, tokenized_textB)
+    #print(tokenized_textA, tokenized_textB)
 
     # Mask a token that we will try to predict back with `BertForMaskedLM`
     masked_index = len(tokenized_textA) + tokenized_textB.index('$')
@@ -130,7 +129,6 @@ def wordtovec(pred, choise):
     return max(score.items(), key=operator.itemgetter(1))[0]
 
 def main():
-    print(len(train_statement_string), len(train_question_string))
     for idx in range(10):
         i = idx
         pred = BERT(train_statement_string[i], train_question_string[i])
